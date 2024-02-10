@@ -1,0 +1,14 @@
+body{ background-color: black;
+}
+
+#title{color: gold;
+text-shadow:5px 5px  5px red;}
+
+#containerDiv{ background-color: aliceblue;
+    border: .1em saddlebrown solid;
+
+display: flex;
+flex-basis:100%;
+flex-flow: column nowrap;
+flex: 1 1 ;
+}
