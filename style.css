@@ -4,23 +4,7 @@
 
 }
  *{font-family: 'Madimi';}
- body{ 
+ 
+ body{ background-color: grey;
 }
 
-#title{color: gold;
-text-shadow:5px 5px  5px blue;}
-
-
-button{border-radius: 5%;
-padding: 15px;
-background-color: lightblue;
-color: green;}
-
-#container{background-color:white;
-display: flex;
-flex-wrap: wrap;
-flex:0 0 0;
-}
-
-
-div{border: 10px solid;}
