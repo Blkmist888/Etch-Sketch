@@ -1,14 +1,26 @@
-body{ background-color: black;
+ @font-face {
+    font-family:'Madimi' ;
+    src: url(fonts/Madimi_One/MadimiOne-Regular.ttf)
+
+}
+ *{font-family: 'Madimi';}
+ body{ 
 }
 
 #title{color: gold;
-text-shadow:5px 5px  5px red;}
+text-shadow:5px 5px  5px blue;}
 
-#containerDiv{ background-color: aliceblue;
-    border: .1em saddlebrown solid;
 
+button{border-radius: 5%;
+padding: 15px;
+background-color: lightblue;
+color: green;}
+
+#container{background-color:white;
 display: flex;
-flex-basis:100%;
-flex-flow: column nowrap;
-flex: 1 1 ;
+flex-wrap: wrap;
+flex:0 0 0;
 }
+
+
+div{border: 10px solid;}
