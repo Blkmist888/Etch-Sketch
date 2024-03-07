@@ -20,6 +20,6 @@ createGrid.style.height=`32px`
 createGrid.style.width=`32px`
 createGrid.style.border=' 1px solid black'
 container.appendChild(createGrid)
-createGrid.classList.add
+createGrid.addEventListener('mouseover', event =>{createGrid.style.backgroundColor='black'})
 }
 
